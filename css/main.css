@@ -1,0 +1,29 @@
+.card {
+  height: 500px;
+}
+
+.first {
+background-image: url(../images/dogs-1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+}
+
+.second {
+  background-image: url(../images/dogs-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.third {
+  background-image: url(../images/dogs-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.index-btn {
+  left: 50%;
+  bottom: 10px;
+}
