@@ -10,7 +10,11 @@
   <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-  <header class="grid">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header class="grid" role="banner">
     <div class="unit xs-1-2">
       <a href="index.html">
         <i class="icon i-96 embed embed-1by1">
@@ -19,7 +23,7 @@
       </a>
       <h2 class="tera">Loyal Rescue</h2>
     </div>
-    <nav class="unit xs-1-2">
+    <nav class="unit xs-1-2" role="navigation" id="nav" tabindex="0">
       <ul class="list-group">
         <li><a href="about.html">About Us</a></li>
         <li><a href="adopt.html">Application</a></li>
@@ -27,7 +31,7 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main role="main" id="main" tabindex="0">
     <section>
       <h1>ABOUT US</h1>
       <h3>Our History</h3>
@@ -44,7 +48,7 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer role="contentinfo">
       <p class="text-center">Loyal Rescue © 2020</p>
     </footer>
   </body>

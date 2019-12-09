@@ -3,21 +3,21 @@
 }
 
 .first {
-background-image: url(../images/dogs-1.jpg);
+background-image: url("../images/dogs-1.jpg");
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
 }
 
 .second {
-  background-image: url(../images/dogs-2.jpg);
+  background-image: url("../images/dogs-2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .third {
-  background-image: url(../images/dogs-3.jpg);
+  background-image: url("../images/dogs-3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -50,4 +50,9 @@ background-position: center;
 
 .embed-1by1, .embed--1by1 {
   padding: 0%;
+}
+
+.submit-button {
+  background-color: grey;
+  border-color: grey;
 }
