@@ -3,10 +3,10 @@
 }
 
 .first {
-background-image: url("../images/dogs-1.jpg");
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center;
+  background-image: url("../images/dogs-1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .second {
@@ -55,4 +55,17 @@ background-position: center;
 .submit-button {
   background-color: grey;
   border-color: grey;
+}
+
+nav ul li {
+  background-color: blue;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li:hover {
+  background-color: grey;
 }
